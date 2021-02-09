@@ -156,9 +156,9 @@ function LoginForm() {
       </Form.Group>
       {/* END Form Group */}
       <div className="d-flex align-items-center justify-content-between">
-        <span>
-          Don't have an account ? <Link href="/register">Sign Up</Link>
-        </span>
+       {/*<span>
+          no tienes una cuenta? <Link href="/register">Sign Up</Link>
+       </span>*/}
         <Button type="submit" variant="label-primary" size="lg" width="widest" disabled={loading}>
           {loading ? <Spinner className="mr-2" /> : null} Login
         </Button>
